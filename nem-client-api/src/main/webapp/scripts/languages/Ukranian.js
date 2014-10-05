@@ -39,22 +39,22 @@ define({
         common: {
         	success: 'Успiшно', //title of the Success message modals
         	appStatus: {
-        		nccUnknown: 'NCC status is unknown',
+        		nccUnknown: 'Статус NCC невiдомий',
         		nccUnavailable: 'NCC не досяжний',
-        		nccStarting: 'NCC is starting...',
-        		nisUnknown: 'NIS status is unknown',
+        		nccStarting: 'NCC Запускається...',
+        		nisUnknown: 'Статус NIS невiдомий',
         		nisUnavailable: 'NIS не досяжний',
-        		nisStarting: 'NIS is starting...',
-        		notBooted: 'NIS requires to be booted. Please open your wallet and boot a local node via the popup dialog or configure the auto-boot setting.',
-        		booting: 'Booting NIS...',
-        		nisInfoNotAvailable: 'NIS info is not avaiable yet. Trying to retrieve NIS info...',
+        		nisStarting: 'NIS Запускається...',
+        		notBooted: 'NIS має бути запущений. Будь ласка вiдкрийте свiй гаманець, та скористайтеся меню NCC для запуску локального вузла або активуйте авто-запуск NCC у меню налаштуваннь.',
+        		booting: 'Завантаження NIS...',
+        		nisInfoNotAvailable: 'Iнформацiя про NIS ще недоступна. Спроба отримання інформації...',
         		synchronizing: 'NIS синхронізується. Блок {{1}}, приблизно. {{2}} днiв.'
         		daysBehind: {
-        			0: 'less than 1 day',
-        			1: '1 day',
-        			many: '{{1}} days'
+        			0: 'менше 1 дня',
+        			1: '1 день',
+        			many: '{{1}} днiв'
         		},
-        		synchronized: 'NIS is synchronized!'
+        		synchronized: 'NIS синхронізовано!'
         	}
     //     	nisStatus: {
     //     		notBooted: 'NIS має бути запущений. Будь ласка, відкрийте гаманець і за допомогою спливаючого меню запустiть локальний вузол.',
@@ -71,28 +71,28 @@ define({
 				no: 'Нi'
 			},
 			settings: {
-				title: 'Settings',
+				title: 'Налаштування',
 				language: {
-					label: 'Language'
+					label: 'Мова'
 				},
 				remoteServer: {
-					tabTitle: 'Remote Server',
-					protocol: 'Protocol',
+					tabTitle: 'Віддалений сервер',
+					protocol: 'Протокол',
 					protocolOptions: {
 						http: 'HTTP'
 					},
-					host: 'Host',
-					port: 'Port'
+					host: 'Хост',
+					port: 'Порт'
 				},
 				autoBoot: {
-					tabTitle: 'Auto-boot',
-					name: 'Node name',
-					account: 'Account',
-					primaryAccount: 'Primary Account',
-					auto: 'Auto boot when a wallet is opened'
+					tabTitle: 'Авто-запуск',
+					name: 'Iм'я вузла',
+					account: 'Акаунт',
+					primaryAccount: 'Основний акаунт',
+					auto: 'Авто-запуск вузла при входi'
 				},
-				save: 'Save',
-				saveSuccess: 'Settings have been saved successfully'
+				save: 'Зберегти',
+				saveSuccess: 'Налаштування були успiшно збереженi'
 			},
 			sendNem: {
 				title: 'Відправити NEM',
@@ -111,15 +111,15 @@ define({
 				sending: 'Вiдправлення...',
 				successMessage: 'Транзакцiя пройшла успішно!',
 				txConfirm: {
-					title: 'Confirm Transaction',
-					sendLabel: "You're going to send",
-					to: 'To',
-					message: 'Message',
-					encrypted: 'Message is encrypted',
-					noMessage: 'No message',
-					cancel: 'Cancel',
-					send: 'Send',
-					sending: 'Sending...'
+					title: 'Підтвердження транзакції',
+					sendLabel: "Ви збираетеся вiдправити",
+					to: 'Кому:',
+					message: 'Повiдомлення',
+					encrypted: 'Шифроване повiдомлення',
+					noMessage: 'Без повiдомлення',
+					cancel: 'Скасувати',
+					send: 'Вiдправити',
+					sending: 'Вiдправлення...'
 				}
 			},
 			clientInfo: {
@@ -248,7 +248,7 @@ define({
 			nav: {
 				start: 'Приступаемо до роботи',
 				about: 'Про NEM',
-				settings: 'Settings'
+				settings: 'Налаштування'
 			},
 			main: {
 				leftTitle: 'Новий у мережi <em>NEM</em>?',
@@ -308,8 +308,8 @@ define({
 			lastAccess: 'Приблизно {{1}} днiв тому',
 			lastAccessJustNow: 'Щойно',
 			lastAccessTooltip: 'В останне заходили {{1}}',
-			primary: 'Головний',
-			primaryShort: 'Г',
+			primary: 'Основний',
+			primaryShort: 'О',
 			noLabel: '<Без позначки>',
 			copiedToClipboard: 'Скопійовано!',
 			actions: {
